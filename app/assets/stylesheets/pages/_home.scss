@@ -1,12 +1,23 @@
 // Specific CSS for your home-page
-h1 {
-  text-align: center;
-  font-family: 'Mrs Saint Delafield', cursive;
+body {
+  //background-image: url(escalier.jpg);
+  //background-size: cover;
+  background-color: #F7CDC1;
 }
 
-.
+h1 {
+  text-align: center;
+  font-family: 'Monoton', cursive;
+}
+
 #manifesto {
   text-align: justify;
-  padding: 20px 0 20px 0;
-  margin: 2em 16em;
+  padding: 38px;
+  margin: 2em 12em;
+  font-family: 'Lora', serif;
+  background-color: white;
+  border-width: 10px;
+  border-image-source: url(golden_glitter.jpg);
+  opacity: 0.9;
+  color: black;
 }
