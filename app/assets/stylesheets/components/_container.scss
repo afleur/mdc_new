@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(240,240,240);
+  //flex-wrap: wrap;
+}
+
+.container::first-child {
+  align-items: flex-start;
+}

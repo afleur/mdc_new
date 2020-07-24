@@ -1,7 +1,8 @@
+
 .navbar-lewagon {
   justify-content: space-between;
   background-color: black;
-  opacity: 0.8;
+  //opacity: 0.8;
   color: white;
 }
 
@@ -10,5 +11,17 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 40px;
+  width: 300px;
+}
+
+.manifesto-navbar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: nowrap;
+}
+
+.navbar-items {
+  padding: 2px 40px;
+  font-family: 'Lora', cursive
 }
