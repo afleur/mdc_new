@@ -1,4 +1,4 @@
-.container {
+.manifesto-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -6,6 +6,50 @@
   //flex-wrap: wrap;
 }
 
-.container::first-child {
+.manifesto-container::first-child {
   align-items: flex-start;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.middle-container {
+  height: 100vh;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom-container {
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(241, 223, 209);
+  color: black;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sharing-text {
+  padding: 20px 0px;
+}
+
+
+.sharing img {
+  height: 62vh;
+  background-color: linear-gradient(rgba(0,0,0,0.3));
+}
+
+.mission-text {
+  font-size: 16px;
+  width: 50vh;
 }

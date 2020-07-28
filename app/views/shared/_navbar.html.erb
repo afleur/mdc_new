@@ -1,19 +1,19 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon fixed-top">
   <div class="manifesto-navbar-logo">
-  <%= link_to "#", class: "navbar-brand" do %>
+  <%= link_to root_path, class: "navbar-brand" do %>
     <%= image_tag "mdc_logo.png", alt: "MDC"%>
     <% end %>
   </div>
 
   <div class="manifesto-navbar">
     <div class="navbar-items">
-      Manifesto
+      <%= link_to "Manifesto", manifesto_path %>
     </div>
     <div class="navbar-items">
-      Me, Myself & I
+      <%= link_to "Me, Myself & I", about_path %>
     </div>
     <div class="navbar-items">
-      Contact
+      <%= link_to "Contact", contact_path %>
     </div>
   </div>
 </div>

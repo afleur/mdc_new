@@ -1,0 +1,4 @@
+<%= form_for Subscriber.new do |f| %>
+  <%= f.text_field :email, placeholder:'Email', class:"form-control text-form" %>
+  <%= f.submit "S'inscrire", class:"btn btn-outline-dark" %>
+<% end %>
