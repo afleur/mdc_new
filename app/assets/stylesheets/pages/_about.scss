@@ -1,15 +1,44 @@
 .about-banner {
-  background-color: white;
-  height: 100vh;
+  background-color: rgb(241, 223, 209);
+  font-family: 'Playfair Display', serif;
 }
 
 .about-container {
-  height: 100vh;
-  text-align: center;
+  text-align: left;
   background-color: white;
   color: black;
-  font-size: 40px;
+  font-size: 20px;
+  margin: 87px 150px 0 150px;
+  background-color: rgba(241, 223, 209, 0.2);
+}
+
+.about-container h1 {
+  font-size: 32px;
+  padding-bottom: 20px;
+  color: rgb(153, 112, 87);
+}
+
+.about-container h2 {
+  font-size: 25px;
+  font-weight: 30px;
+  padding: 25px 40px 20px 40px;
+  color: rgb(153, 112, 87);
+}
+
+.about-container p {
+  font-size: 16px;
+  color: rgba(41, 41, 41, 1);
+}
+
+.title-about {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.pic-profile {
+  height: 40vh;
+  border-radius: 50%;
+  padding-top: 10px;
 }
