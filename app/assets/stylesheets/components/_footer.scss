@@ -1,0 +1,34 @@
+.footer {
+  box-sizing: border-box;
+  min-height: 0px;
+  height: 70px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  margin: 0px;
+  overflow: hidden;
+  }
+
+.footer-logo {
+  box-sizing: border-box;
+  //min-height: 0px;
+  //flex-direction: column;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  margin: 0px;
+  flex: 1 1 0%;
+  color: black;
+  //height: 20px;
+}
+.footer-logo img {
+  height: 20px;
+}
+
+

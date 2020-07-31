@@ -5,7 +5,7 @@
   transition: 0.5s background-color ease;
   //opacity: 0.8;
   color: white;
-  border-bottom: 1px solid darkgoldenrod;
+  border-bottom: 1px solid rgb(185, 148, 121);
 }
 
 .navbar-lewagon-black {
@@ -40,3 +40,8 @@
   color: white;
 }
 
+.navbar-items a:hover {
+  color: rgb(208, 159, 128);
+  padding-bottom: 32px;
+  border-bottom: 3px solid rgb(208, 159, 128);
+}
