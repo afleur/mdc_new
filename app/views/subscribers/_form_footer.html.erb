@@ -1,0 +1,6 @@
+<div class="form-inline">
+  <%= form_for Subscriber.new do |f| %>
+    <%= f.text_field :email, placeholder:'Email', class:"footer-text-form" %>
+    <%= f.submit "S'inscrire 🙌", class:"btn footer-btn" %>
+  <% end %>
+</div>

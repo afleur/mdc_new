@@ -1,9 +1,16 @@
 .text-form {
   border: none;
-  border-bottom: 1px solid darkgoldenrod;
+  border-bottom: 1px solid rgb(185, 148, 121);
   font-size: 16px;
   padding: 0 5px;
-  margin: 0 0 20px 0;
+  margin: 0 auto;
   text-align: center;
+  width: 20em;
+  justify-content: center;
+
   //background-color: rgba(184, 134, 11, 0.5)
+}
+
+.margin-top {
+  margin-top: 20px;
 }
