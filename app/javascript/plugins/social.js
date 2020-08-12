@@ -1,9 +1,12 @@
-const socialMouseOver = () => {
+function socialMouseOver() {
 
-  const insta = document.querySelectorAll("img[alt=instagram]");
+  const fbwhite = document.querySelector(".facebook-white-navbar");
+  const fbsable = document.querySelector(".facebook-sable-navbar");
 
-  insta.addEventListener('mouseover', function() {
-    this.src = '../../../assets/images/instagram-sable.png';
+  fbwhite.addEventListener("mouseover", function() {
+    //fbsable.classList.remove("no-display");
+    //fbwhite.target.style.display = "none";
+    alert ("it works");
   });
 
 }

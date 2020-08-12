@@ -54,3 +54,64 @@
   height: 20px;
   margin-right: 10px;
 }
+
+.navbar-facebook {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('facebook-white.png');
+  background-size: cover;
+  margin: 5px 10px 0 0;
+}
+
+.navbar-facebook:hover {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('facebook-sable.png');
+  background-size: cover;
+  cursor: pointer;
+}
+
+.navbar-ig {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('instagram-white.png');
+  background-size: cover;
+  margin: 5px 10px 0 0;
+}
+
+.navbar-ig:hover {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('instagram-sable.png');
+  background-size: cover;
+  cursor: pointer;
+}
+
+.navbar-tiktok {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('tiktok-white.png');
+  background-size: cover;
+  margin: 5px 10px 0 0;
+}
+
+.navbar-tiktok:hover {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('tiktok-sable.png');
+  background-size: cover;
+  cursor: pointer;
+}
+
+
+
+
+
+
+

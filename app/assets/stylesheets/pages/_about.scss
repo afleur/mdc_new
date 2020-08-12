@@ -3,19 +3,41 @@
   font-family: 'Playfair Display', serif;
 }
 
+.about-first {
+  background-image: url('mamaworking.png');
+  background-size: cover;
+  height: 60vh;
+  margin-top: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 50px;
+  font-style: bold;
+  //border: 1px solid white;
+}
+
+.about-first p {
+  padding: 10px 5px;
+  background-color: rgba(241, 223, 209, 0.6);
+  color: rgb(153, 112, 87);
+  }
+
 .about-container {
   text-align: left;
   background-color: white;
   color: black;
   font-size: 20px;
-  margin: 87px 150px 0 150px;
+  margin: 50px 20px 0 50px;
   background-color: rgba(241, 223, 209, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .about-container h1 {
-  font-size: 32px;
+  font-size: 45px;
   padding-bottom: 20px;
-  color: rgb(153, 112, 87);
+  color: rgb(20, 20, 20);
 }
 
 .about-container h2 {
@@ -30,15 +52,143 @@
   color: rgba(41, 41, 41, 1);
 }
 
+
+.about-text {
+  //border-bottom: 5px solid black;
+}
+
+.about-image {
+}
+
+.about-image img {
+  width: 500px;
+}
+
+.mission h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+}
+
+.mission p {
+  margin-left: 300px;
+  font-size: 23px;
+  padding-bottom: 12px;
+}
+
+.mission-p {
+  padding-bottom: 18px;
+}
+
+.mission-border {
+  border-bottom: 4px solid black;
+  width: 50%;
+  margin-left: 10rem;
+}
+
+.values h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+.values h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  color: black;
+  padding-top: 30px;
+}
+
+.values-emp {
+  text-align: left;
+}
+
+.values-amb {
+  text-align: center;
+}
+
+.values-hum {
+  text-align: right;
+}
+
+
+.value-border {
+  border-bottom: 5px dotted black;
+  width: 50%;
+  margin-left: 10rem;
+  padding: 10px 0;
+}
+
 .title-about {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 20px;
+  flex-direction: column;
+  margin: 80px 0 20px 0;
+  background-image: url('about.png');
+  background-size: cover;
+  height: 80vh;
+}
+
+.title-about img {
+  height: 200px;
+}
+
+.padding-m-bottom {
+  padding-bottom: 30px;
 }
 
 .pic-profile {
   height: 40vh;
   border-radius: 50%;
   padding-top: 10px;
+}
+
+.manifesto-values {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.founder-border {
+  border-bottom: 4px solid black;
+  width: 50%;
+  margin-left: 10rem;
+  margin-top: 4rem;
+}
+
+.myself {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 20px;
+  //border-top: 1px solid black;
+  //border-bottom: 1px solid black;
+}
+
+.myself-text {
+  //font-size: 15px;
+  margin: 0 15px 0 15px;
+}
+
+
+.myself-text h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  color: black;
+  padding: 30px 0 20px 0;
+}
+
+.story {
+  margin: 0 150px 0 150px;
+}
+
+.story h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  color: black;
+  padding: 30px 0 20px 0;
+}
+
+.story h2 {
+  font-size: 23px;
+  padding: 15px 0;
 }

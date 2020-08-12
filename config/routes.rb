@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'manifesto', to: 'pages#manifesto'
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
+  get 'episode', to: 'pages#episode'
 
   devise_for :users
 

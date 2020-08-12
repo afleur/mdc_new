@@ -1,19 +1,25 @@
 .contact-banner {
-  background-image: url("envelope.jpg");
+  background-image: url("telephone.png");
   background-size: cover;
   height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: rgba(41, 41, 41, 1);
+  background-color: rgb(241, 223, 209);
+  margin-top: 50px;
 }
 
 .box-contact {
-  border: 3px solid rgb(164, 92, 57);
+  border: 2px solid rgb(164, 92, 57);
   width: 80vh;
   height: 40vh;
   padding: 25px;
-  background-color: rgba(241, 223, 209, 0.7);
+  background-color: rgba(241, 223, 209, 0.3);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 2px;
 }
 
 .small-padding {
@@ -23,4 +29,27 @@
 .mail {
  font-weight: bold;
  text-align: center;
+ text-decoration: none;
+}
+
+.mail a {
+ text-decoration: none;
+ color: rgb(164, 92, 57);
+}
+
+.mail a:hover {
+ text-decoration: none;
+ color: rgb(185, 148, 121);
+}
+
+
+.contact-img img {
+  height: 400px;
+}
+
+.contact h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  color: black;
+  padding: 30px 0;
 }
