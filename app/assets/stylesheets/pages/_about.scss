@@ -7,6 +7,7 @@
   background-image: url('mamaworking.png');
   background-size: cover;
   height: 60vh;
+  //width: 100vh;
   margin-top: 84px;
   display: flex;
   align-items: center;
@@ -191,4 +192,89 @@
 .story h2 {
   font-size: 23px;
   padding: 15px 0;
+}
+
+.gif-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gif-box {
+  height: 250px;
+  width: 250px;
+  border: 1px solid #b99479;
+  border-radius: 2px;
+  margin: 0 0 40px 0;
+}
+
+
+.gif-mama{
+  background-image: url('mama.png');
+  background-size: cover;
+}
+
+.gif-mama:hover {
+  background-image: url('serena.gif');
+  background-size: cover;
+}
+
+.gif-not:hover {
+  background-image: url('no.gif');
+  background-size: cover;
+}
+
+.gif-not{
+  background-image: url('no.png');
+  background-size: cover;
+}
+
+.gif-cook:hover {
+  background-image: url('cook.gif');
+  background-size: cover;
+}
+
+.gif-cook {
+  background-image: url('cook.png');
+  background-size: cover;
+}
+
+.gif-part h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  color: black;
+  margin: 30px 150px;
+}
+
+.row {
+  flex-wrap: no-wrap;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.card ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card li {
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0 4px;
+  background-color: black;
+  color: white;
+  font-family: 'Anton', sans-serif;
+}
+
+.card li:hover {
+  background-color: rgb(199, 137, 116);
 }

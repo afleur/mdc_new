@@ -9,4 +9,4 @@ document.addEventListener('turbolinks:load', () => {
 
 import { go } from '../plugins/hometitle';
 
-import { socialMouseOver } from '../plugins/social';
+import { scroll } from '../plugins/scroll';
