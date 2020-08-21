@@ -1,0 +1,57 @@
+.container-coming {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: url("podcast.png");
+  background-size: cover;
+}
+
+.container-coming h1 {
+  font-size: 60px;
+  padding: 0 60px 10px 60px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid black;
+  font-family: 'Anton', sans-serif;
+}
+
+.container-coming img {
+  height: 60px;
+  width: 60px;
+}
+
+.container-coming img:hover {
+  transform: scale(1.2);
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+
+.margin-right {
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.newsletter {
+  background-image: url('newsletter.png');
+  background-size: cover;
+  width: 180px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.newsletter:hover {
+  background-image: url('newsletter.gif');
+  background-size: cover;
+  width: 180px;
+  height: 60px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.social-ep {
+  margin-top: 30px;
+}
+

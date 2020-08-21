@@ -4,9 +4,9 @@
 }
 
 .about-first {
-  background-image: url('mamaworking.png');
-  background-size: cover;
-  height: 60vh;
+  background-image: url('aboutmeme.png');
+  background-repeat: repeat-x;
+  height: 50vh;
   //width: 100vh;
   margin-top: 84px;
   display: flex;
@@ -14,8 +14,15 @@
   justify-content: space-around;
   font-size: 50px;
   font-style: bold;
+  flex-direction: column;
   //border: 1px solid white;
 }
+
+.about-first h1{
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+}
+
 
 .about-first p {
   padding: 10px 5px;
@@ -44,7 +51,7 @@
 .about-container h2 {
   font-size: 25px;
   font-weight: 30px;
-  padding: 25px 40px 20px 40px;
+  padding: 25px 40px 10px 40px;
   color: rgb(153, 112, 87);
 }
 
@@ -67,13 +74,25 @@
 
 .mission h1 {
   font-family: 'Anton', sans-serif;
-  font-size: 50px;
+  font-size: 40px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.mission h2{
+  font-family: 'Anton', sans-serif;
+  font-size: 38px;
+  //font-style: bold;
+  margin: 0 auto;
+  text-align: right;
+  color: rgb(20, 20, 20);
+  padding: 10px 0 30px 0;
 }
 
 .mission p {
   margin-left: 300px;
   font-size: 23px;
-  padding-bottom: 12px;
+  padding-bottom: 8px;
 }
 
 .mission-p {
@@ -88,7 +107,7 @@
 
 .values h1 {
   font-family: 'Anton', sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 40px;
 }
 
@@ -201,7 +220,7 @@
 }
 
 .gif-box {
-  height: 250px;
+  height: 280px;
   width: 250px;
   border: 1px solid #b99479;
   border-radius: 2px;
@@ -230,7 +249,7 @@
 }
 
 .gif-cook:hover {
-  background-image: url('cook.gif');
+  background-image: url('gabi.gif');
   background-size: cover;
 }
 
@@ -255,26 +274,62 @@
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
+  background-color: rgba(240, 240, 240, 0.6);
+  border: 1px solid rgb(199, 137, 116);
 }
 
 .card ul {
   display: flex;
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  border-bottom: none;
+  //border-bottom: 1px solid rgba(20, 20, 20, 0.5);
+  //background-color: rgba(199, 137, 116, 0.4);
 }
 
 .card li {
-  flex: 1;
+  font-weight: 3px;
+  list-style: none;
+  //flex: 1;
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  margin: 0 4px;
-  background-color: black;
-  color: white;
-  font-family: 'Anton', sans-serif;
+  margin: 0 auto;
+  //background-color: black;
+  color: black;
+  //font-family: 'Anton', sans-serif;
 }
 
 .card li:hover {
-  background-color: rgb(199, 137, 116);
+  border-bottom: 3px solid rgb(199, 137, 116);
+  border-top: 3px solid rgb(199, 137, 116);
+  font-weight: bold;
+  background-color: rgba(199, 137, 116, 0.1);
+}
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    cursor: pointer;
+    //-moz-transform: rotate(5deg);
+    //-webkit-transform: rotate(5deg);
+    //-o-transform: rotate(5deg);
+    //-ms-transform: rotate(5deg);
+    //transform: rotate(5deg);
+    position: fixed;
+    bottom: 90px;
+    right: 2px;
+    background-color: rgba(199, 137, 116, 0.4);
+    color: rgb(50, 50, 50);
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+#back2Top:hover {
+    background-color: rgba(199, 137, 116, 0.8);
+    color: #000;
 }

@@ -9,4 +9,4 @@ document.addEventListener('turbolinks:load', () => {
 
 import { go } from '../plugins/hometitle';
 
-import { scroll } from '../plugins/scroll';
+import { scrolling } from '../plugins/scroll';

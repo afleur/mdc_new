@@ -1,10 +1,11 @@
-function scroll() {
+function scrolling() {
 
   const mission = document.querySelector(".mission");
   const values = document.querySelector(".values");
   const myself = document.querySelector(".myself");
   const founder = document.querySelector(".founder-border");
   const gif = document.querySelector(".gif-part");
+  const top = document.querySelector("#back2Top");
 
   const missionbtn = document.querySelector("#mission-btn");
   const valuesbtn = document.querySelector(".values-btn");
@@ -52,9 +53,16 @@ gifbtn.addEventListener('click',function (){
     inline: 'nearest'
   });
 });
+
+top.addEventListener('click',function (){
+    scroll(0, 0);
+  });
+
 }
 
-scroll();
 
 
-export { scroll };
+scrolling();
+
+
+export { scrolling };
