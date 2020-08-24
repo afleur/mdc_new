@@ -220,11 +220,11 @@
 }
 
 .gif-box {
-  height: 300px;
-  width: 270px;
+  height: 18rem;
+  width: 16rem;
   border: 1px solid #b99479;
   border-radius: 2px;
-  margin: 0 0 40px 0;
+  margin: 0 0 3rem 0;
 }
 
 
@@ -262,11 +262,7 @@
   font-family: 'Anton', sans-serif;
   font-size: 30px;
   color: black;
-  margin: 30px 150px;
-}
-
-.row {
-  flex-wrap: no-wrap;
+  margin: 2rem 8rem;
 }
 
 .card {
@@ -334,6 +330,11 @@
     color: #000;
 }
 
+@media screen and (max-width:900px) {
+.about-image img {
+  display: none;
+}
+}
 
 @media screen and (max-width:570px) {
 
@@ -350,23 +351,57 @@
   justify-content: space-between;
 }
 
-.about-image img {
-  display: none;
-}
-
 .mission h1 {
-  font-size: 28px;
+  //font-size: 28px;
+  padding-top: 1rem;
 }
 
 .mission h2 {
-  font-size: 25px;
+  //font-size: 25px;
   text-align: center;
 }
 
 .mission p {
-  font-size: 15px;
+  //font-size: 15px;
   text-align: right;
   margin: 0 auto;
+  padding-right: 5rem;
+}
+
+
+.story {
+  margin: 0 2rem 0 2rem;
+}
+
+.gif-box {
+  height: 16rem;
+  width: 16rem;
+  border: 1px solid #b99479;
+  border-radius: 2px;
+  margin: 4px 0 4px 0;
+}
+
+.gif-cook {
+  height: 18rem;
+}
+
+.myself {
+flex-direction: column;
+}
+
+.row {
+  flex-direction: column;
+}
+
+.gif-part h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  color: black;
+  margin: 2rem;
+}
+
+.gif-part {
+  padding-bottom: 1rem;
 }
 
 
