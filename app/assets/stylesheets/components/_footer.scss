@@ -17,8 +17,6 @@
   flex-direction: column;
   }
 
-  //  @media (min-width: 30em)
-
 .footer-content {
   display: flex;
   align-items: center;
@@ -139,4 +137,34 @@
   background-image: image-url('tiktok-sable.png');
   background-size: cover;
   cursor: pointer;
+}
+
+
+@media screen and (max-width:570px) {
+
+.footer {
+  height: 9rem;
+}
+
+.footer-content {
+  flex-direction: column;
+  height: auto;
+}
+
+.footer-logo {
+  padding-bottom: 0.5rem;
+}
+
+.footer-bloc {
+  flex-direction: column;
+}
+
+.footer-text {
+  padding-bottom: 0.8rem;
+}
+
+.footer-iris {
+  padding: 10px 0;
+}
+
 }
