@@ -5,7 +5,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background-image: url("podcast.png");
+  background-image: image-url("podcast.png");
   background-size: cover;
   background-position: center;
 }
@@ -36,7 +36,7 @@
 }
 
 .newsletter {
-  background-image: url('newsletter.png');
+  background-image: image-url('newsletter.png');
   background-size: cover;
   width: 180px;
   height: 60px;
@@ -44,7 +44,7 @@
 }
 
 .newsletter:hover {
-  background-image: url('newsletter.gif');
+  background-image: image-url('newsletter.gif');
   background-size: cover;
   width: 180px;
   height: 60px;

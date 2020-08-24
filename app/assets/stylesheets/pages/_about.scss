@@ -144,7 +144,7 @@
   justify-content: space-around;
   flex-direction: column;
   margin: 80px 0 20px 0;
-  background-image: url('about.png');
+  background-image: image-url('about.png');
   background-size: cover;
   height: 80vh;
 }
@@ -229,32 +229,32 @@
 
 
 .gif-mama{
-  background-image: url('mama.png');
+  background-image: image-url('mama.png');
   background-size: cover;
 }
 
 .gif-mama:hover {
-  background-image: url('serena.gif');
+  background-image: image-url('serena.gif');
   background-size: cover;
 }
 
 .gif-not:hover {
-  background-image: url('no.gif');
+  background-image: image-url('no.gif');
   background-size: cover;
 }
 
 .gif-not{
-  background-image: url('no.png');
+  background-image: image-url('no.png');
   background-size: cover;
 }
 
 .gif-cook:hover {
-  background-image: url('gabi.gif');
+  background-image: image-url('gabi.gif');
   background-size: cover;
 }
 
 .gif-cook {
-  background-image: url('cook.png');
+  background-image: image-url('cook.png');
   background-size: cover;
 }
 
