@@ -4,7 +4,7 @@
 }
 
 .about-first {
-  background-image: url('aboutmeme.png');
+  background-image: image-url('aboutmeme.png');
   background-repeat: repeat-x;
   height: 50vh;
   //width: 100vh;
@@ -333,3 +333,42 @@
     background-color: rgba(199, 137, 116, 0.8);
     color: #000;
 }
+
+
+@media screen and (max-width:570px) {
+
+.about-container {
+  text-align: left;
+  background-color: white;
+  color: black;
+  width: 100%;
+  font-size: 20px;
+  margin: 4px 5px 0 4px;
+  background-color: rgba(241, 223, 209, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-image img {
+  display: none;
+}
+
+.mission h1 {
+  font-size: 28px;
+}
+
+.mission h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.mission p {
+  font-size: 15px;
+  text-align: right;
+  margin: 0 auto;
+}
+
+
+}
+

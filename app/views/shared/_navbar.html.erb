@@ -1,10 +1,14 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon fixed-top">
-  <div class="manifesto-navbar-logo">
-  <%= link_to root_path, class: "navbar-brand" do %>
-    <%= image_tag "mdc_logo.png", alt: "MDC"%>
-    <% end %>
+  <div class='menu'>
+    <div class="menu-btn">
+      <div class="menu-btn__burger"></div>
+    </div>
+    <div class="manifesto-navbar-logo">
+    <%= link_to root_path, class: "navbar-brand" do %>
+      <%= image_tag "mdc_logo.png", alt: "MDC"%>
+      <% end %>
+    </div>
   </div>
-
   <div class="manifesto-navbar">
     <div class="navbar-logo">
       <div class="navbar-linkedin">
@@ -27,4 +31,5 @@
       <%= link_to "CONTACT", contact_path %>
     </div>
   </div>
+
 </div>
