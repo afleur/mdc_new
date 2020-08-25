@@ -109,9 +109,11 @@
   cursor: pointer;
 }
 
+.menu-btn {
+  display:none;
+}
 
-
-@media screen and (max-width:570px) {
+@media screen and (max-width:830px) {
 
 .ham {
   cursor: pointer;
@@ -192,6 +194,8 @@
   color: rgb(240, 240, 240)
 }
 
-
+.menu-btn {
+  display:block;
+}
 
 }
