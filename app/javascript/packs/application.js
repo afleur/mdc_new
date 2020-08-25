@@ -10,3 +10,5 @@ document.addEventListener('turbolinks:load', () => {
 import { go } from '../plugins/hometitle';
 
 import { scrolling } from '../plugins/scroll';
+
+import { menuList } from '../plugins/menuList';

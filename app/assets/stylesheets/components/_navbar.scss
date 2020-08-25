@@ -113,6 +113,42 @@
 
 @media screen and (max-width:570px) {
 
+.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+.hamRotate180.active {
+  transform: rotate(180deg);
+}
+.line {
+  fill:none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke: white;
+  stroke-width:2.5;
+  stroke-linecap:round;
+}
+.ham1 .top {
+  stroke-dasharray: 40 139;
+}
+.ham1 .bottom {
+  stroke-dasharray: 40 180;
+}
+.ham1.active .top {
+  stroke-dashoffset: -98px;
+}
+.ham1.active .bottom {
+  stroke-dashoffset: -138px;
+}
+
+
 .menu {
   display: flex;
   justify-content: center;
@@ -121,66 +157,34 @@
   text-align: center;
 }
 
-.menu-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  transition: all .5s ease-in-out;
-  border: 1px solid rgb(240, 240, 240);
-}
-
-
-.menu-btn__burger {
-  width: 25px;
-  height: 2px;
-  background-color: rgb(240, 240, 240);
-  border-radius: 5px;
-  transition: all .5sec ease-in-out;
-}
-
-.menu-btn__burger::before,
-.menu-btn__burger::after {
-  content: '';
-  position: absolute;
-  width: 25px;
-  height: 2px;
-  background-color: rgb(240, 240, 240);
-  border-radius: 5px;
-  transition: all .5sec ease-in-out;
-}
-
-.menu-btn__burger::before {
-  content: '';
-  position: absolute;
-  width: 25px;
-  height: 2px;
-  background-color: rgb(240, 240, 240);
-  border-radius: 5px;
-  transition: all .5sec ease-in-out;
-}
-
-.menu-btn__burger::before {
-  transform: translateY(-8px);
-}
-
-.menu-btn__burger::after {
-  transform: translateY(8px);
-}
-
 .manifesto-navbar {
   display: none;
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 50%;
+  width: 80%;
   text-align: center;
 }
 
 .navbar-items {
   display: none;
+}
+
+.list-menu {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.list-menu li {
+  list-style-type: none;
+  padding: 3px;
 }
 
 }
