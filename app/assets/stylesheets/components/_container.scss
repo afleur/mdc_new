@@ -59,4 +59,28 @@
   padding-bottom: 20px;
 }
 
+@media screen and (max-width:570px) {
 
+
+.container {
+  margin-top: 40px;
+}
+
+.middle-container {
+  height: auto;
+  flex-direction: column;
+}
+
+.bottom-container {
+  height: auto;
+  flex-direction: column;
+}
+
+.sharing img {
+  padding-top: 15px;
+}
+
+.mission-text {
+  padding-top: 20px;
+}
+}

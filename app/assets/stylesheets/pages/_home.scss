@@ -122,3 +122,16 @@
   font-size: 15px;
   color: rgb(240, 240, 240);
 }
+
+
+@media screen and (max-width:570px) {
+
+.quote-img {
+  display: none;
+}
+
+.quote {
+  font-size: 15px;
+}
+
+}
