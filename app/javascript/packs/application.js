@@ -1,5 +1,6 @@
 import "bootstrap";
 
+import { menuList } from '../plugins/menuList';
 import { initUpdateNavbarOnScroll } from '../plugins/navbar';
 
 document.addEventListener('turbolinks:load', () => {
@@ -7,8 +8,7 @@ document.addEventListener('turbolinks:load', () => {
   initUpdateNavbarOnScroll();
 });
 
-import { go } from '../plugins/hometitle';
-
 import { scrolling } from '../plugins/scroll';
 
-import { menuList } from '../plugins/menuList';
+
+import { go } from '../plugins/hometitle';

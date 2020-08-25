@@ -42,7 +42,6 @@
  color: rgb(185, 148, 121);
 }
 
-
 .contact-img img {
   height: 400px;
 }
@@ -53,3 +52,25 @@
   color: black;
   padding: 30px 0;
 }
+
+@media screen and (max-width:570px) {
+
+.contact-banner {
+  background-image: none;
+  padding-top: 55px;
+  height: auto;
+}
+
+.box-contact {
+  margin: 20px 0 25px 0;
+  height: auto;
+}
+
+.contact-img {
+  background-image: image-url('telf.gif');
+  height: 14rem;
+  width: 18rem;
+  margin: 0 auto;
+}
+}
+

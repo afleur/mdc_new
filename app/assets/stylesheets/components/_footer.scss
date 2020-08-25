@@ -143,7 +143,7 @@
 @media screen and (max-width:570px) {
 
 .footer {
-  height: 10rem;
+  height: 15rem;
 }
 
 .footer-content {
@@ -152,7 +152,22 @@
 }
 
 .footer-logo {
-  padding-bottom: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.footer-linkedin {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-ig {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-tiktok {
+  width: 40px;
+  height: 40px;
 }
 
 .footer-bloc {
@@ -161,6 +176,21 @@
 
 .footer-text {
   padding-bottom: 0.8rem;
+  font-size: 16px;
+}
+
+.footer-form {
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-btn {
+  font-size: 16px;
+  margin-top: 15px;
 }
 
 .footer-iris {
