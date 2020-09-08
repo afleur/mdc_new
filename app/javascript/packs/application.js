@@ -8,7 +8,7 @@ document.addEventListener('turbolinks:load', () => {
   initUpdateNavbarOnScroll();
 });
 
+import { go } from '../plugins/hometitle';
 import { scrolling } from '../plugins/scroll';
 
 
-import { go } from '../plugins/hometitle';
