@@ -432,6 +432,21 @@ flex-direction: column;
   padding-bottom: 1rem;
 }
 
+.gif-mama{
+  background-image: image-url('mama-mobile.png');
+  background-size: cover;
+}
+
+.gif-not{
+  background-image: image-url('no-mobile.png');
+  background-size: cover;
+}
+
+.gif-cook {
+  background-image: image-url('cook-mobile.png');
+  background-size: cover;
+}
+
 
 }
 

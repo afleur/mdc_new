@@ -7,4 +7,8 @@ class PagesController < ApplicationController
   def manifesto
   end
 
+  def non_footer_action
+  @skip_footer = true
+  end
+
 end

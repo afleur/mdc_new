@@ -18,7 +18,7 @@
     <%= render 'shared/navbar' %>
     <%= render 'shared/flashes' %>
     <%= yield %>
-    <%= render 'shared/footer' %>
+    <%= render 'shared/footer' unless action_name == 'episode' %>
 
 
     <%= javascript_pack_tag 'application' %>

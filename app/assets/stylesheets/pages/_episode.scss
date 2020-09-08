@@ -8,6 +8,7 @@
   background-image: image-url("podcast.png");
   background-size: cover;
   background-position: center;
+  margin-top: 30px;
 }
 
 .container-coming h1 {
@@ -61,7 +62,7 @@
 @media screen and (max-width:570px) {
 
 .container-coming {
-  height: auto;
+  height: 100vh;
   padding: 150px 0 50px 0;
 }
 
