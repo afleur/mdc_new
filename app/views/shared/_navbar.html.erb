@@ -24,22 +24,20 @@
   </div>
   <div class="manifesto-navbar">
     <div class="navbar-logo">
+        <%= link_to "https://www.linkedin.com/company/mamadoesntcook/" , :target => "_blank" do %>
       <div class="navbar-linkedin">
-        <%= link_to ""%>
       </div>
+        <% end %>
+      <%= link_to 'https://www.instagram.com/mamadoesntcook/', :target => "_blank" do %>
       <div class="navbar-ig">
-      <% link_to 'https://www.instagram.com/mamadoesntcook/', target: "_blank"  do %>
+      </div>
       <% end %>
-      </div>
-      <div class="navbar-tiktok">
-        <%= link_to ""%>
-      </div>
     </div>
     <div class="navbar-items">
       <%= link_to "EPISODES", episode_path %>
     </div>
     <div class="navbar-items">
-      <%= link_to "ABOUT", about_path %>
+      <%= link_to "INSIDE", about_path %>
     </div>
     <div class="navbar-items">
       <%= link_to "CONTACT", contact_path %>
