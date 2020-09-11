@@ -1,39 +1,29 @@
 function changeWord (){
-    const entrepreneure = document.querySelector(".entrepreneure")
+    const entrepreneure = document.querySelector(".entrepreneure");
     const artiste = document.querySelector(".artiste");
     const porteuse = document.querySelector(".porteuse");
     const sportive = document.querySelector(".sportive");
     const dirigeante = document.querySelector(".dirigeante");
     const militante = document.querySelector(".militante");
 
-    if (artiste.classList.contains("no-display")) {
-      artiste.style.display = "";
-      artiste.classList.remove("no-display");
-      entrepreneure.style.display = "none";
-    } else if (porteuse.classList.contains("no-display")) {
-      porteuse.style.display = "";
-      porteuse.classList.remove("no-display");
-      artiste.style.display = "none";
-    } else if (sportive.classList.contains("no-display")){
-      sportive.style.display = "";
-      sportive.classList.remove("no-display");
-      porteuse.style.display = "none";
-    } else if (dirigeante.classList.contains("no-display")){
-      dirigeante.style.display = "";
-      dirigeante.classList.remove("no-display");
-      sportive.style.display = "none";
-    } else if (militante.classList.contains("no-display")){
-      militante.style.display = "";
-      militante.classList.remove("no-display");
-      dirigeante.style.display = "none";
-    } else {
-      entrepreneure.style.display = "";
-      militante.style.display = "none";
-      }
+    const words = [entrepreneure, artiste, porteuse, sportive, dirigeante, militante, porteuse];
 
+    const n = words.length-1;
+    const loop = 0;
+      for (let i=0; i<n+1; i++) {
+        const myCurrentDiv = words[i%n];
+        const myPreviousDiv = words[(i-1)%(n)];
+        setTimeout(()=> {
+          //myCurrentDiv.style.display = "";
+          myCurrentDiv.classList.remove("no-display");
+          myPreviousDiv.classList.add("no-display");
+        }, i*3000)
+    }
 }
 
-const go = setInterval(changeWord, 3000);
+changeWord();
+
+const go = setInterval(changeWord, 18000);
 
 
 export { go };
