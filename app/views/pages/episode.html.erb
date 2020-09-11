@@ -12,8 +12,16 @@
         <div class="newsletter">
         </div>
 
+      <div class="newsletter-partial no-display">
+        <%= render partial: 'subscribers/form', locals: { form: @form } %>
+      </div>
+
+      <%= link_to 'https://www.linkedin.com/company/mamadoesntcook', :target => "_blank" do %>
       <%= image_tag "linkedinep.png", alt: "Linkedin", class:"margin-right"%>
+      <% end %>
+      <%= link_to "https://www.instagram.com/mamadoesntcook/" , :target => "_blank" do %>
       <%= image_tag "instagramep.png", alt: "Instagram", class:"margin-right"%>
+      <% end %>
       </div>
       </div>
     </div>

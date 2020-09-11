@@ -1,5 +1,6 @@
 import "bootstrap";
 
+import { openForm } from '../plugins/newsletter';
 import { menuList } from '../plugins/menuList';
 import { initUpdateNavbarOnScroll } from '../plugins/navbar';
 
@@ -10,5 +11,4 @@ document.addEventListener('turbolinks:load', () => {
 
 import { go } from '../plugins/hometitle';
 import { scrolling } from '../plugins/scroll';
-
 
